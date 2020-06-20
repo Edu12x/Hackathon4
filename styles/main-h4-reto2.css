@@ -1,0 +1,198 @@
+
+/* Propiedades Generales */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+/*Subtitulos*/
+h2{
+  font-size: 36px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* lis */
+li{
+  display: inline-block;
+}
+
+/* tittle*/
+
+.title{
+  position: relative;
+  margin: 0px;
+  color: white;
+}
+
+h1 {
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  font-size: 64px;
+  text-align: center;
+  color:inherit;
+  font-weight: bold;
+}
+
+.comment {
+  position:absolute;
+  left: 5%;
+  bottom: 30%;
+  width: 20%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 26px;
+  color:inherit;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgba(66, 105 , 216, 0.38);
+  /*overflow: scroll;*/
+}
+
+.boy{
+  width: 100%;
+}
+
+/*Secciones about*/
+.about{
+  background-color: #7299FE;
+  color: white;
+  font-size: 14px;
+  padding: 30px;
+}
+.about h2{
+  color: #1D06A7;
+  padding-top: 20px;
+}
+.about p {
+  padding: 20px;
+  text-align: justify;
+}
+.about a {
+  display: inline-block;
+  width: 10%;
+  padding: 10px;
+  text-align: center;
+  background-color: #D16FFF;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/*Secciones Skills*/
+.skills{
+  background-color: #9122FF;
+  color: white;
+  font-size: 14px;
+  padding: 20px;
+}
+
+.skills h2{
+    color: #26CC4B;
+    padding-top: 20px;
+}
+
+.skills ul{
+  padding: 30px;
+  text-align: center;
+}
+
+.skills li{
+  width: 40%;
+  margin-bottom: 10px;
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.skills progress{
+  width: 100%;
+  height: 30px;
+}
+
+
+/*Secciones Portafolio*/
+.portafolio{
+  background-color: #FFD233;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.portafolio h2{
+  color: #00AD84;
+  padding-top: 20px;
+}
+
+.portafolio ul{
+  text-align: center;
+  padding: 20px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+/*imgs*/
+.portafolio li{
+  padding: 10px;
+}
+
+/*Secciones Customers*/
+.customers{
+  background-color: #3F4E62;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.customers h2{
+  color: #ADFF28;
+  padding-top: 20px;
+}
+
+.customers ul{
+  padding: 30px;
+  text-align: center;
+}
+
+.customers li{
+  padding: 10px;
+  display: inline-block;
+}
+
+.customers figure img{
+  width: 180px;
+  height: 60px;
+}
+
+/*Secciones Contactos*/
+.contact{
+  background-color: #1687A0;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.contact h2{
+  color: #FF1B1B;
+  padding-top: 20px;
+}
+
+div form{
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+input, textarea{
+  margin: 10px;
+  padding: 10px;
+}
+
+.send{
+  text-align: center;
+}
+
+.send button{
+  margin-right: 50px;
+}
